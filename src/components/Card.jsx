@@ -22,11 +22,11 @@ const Card = ({ heading, pointerPos = 0, src }) => {
             <p className="bg-pink-100 text-pink-600 rounded-md">Bearish</p>
           </div>
           <div className="flex-1 space-y-2">
-            <p>2</p>
+            <p>10</p>
             <p className="bg-zinc-100 text-zinc-600 rounded-md">Neutral</p>
           </div>
           <div className="flex-1 space-y-2">
-            <p>2</p>
+            <p>12</p>
             <p className="bg-green-100 text-green-600 rounded-md">Bullish</p>
           </div>
         </div>
