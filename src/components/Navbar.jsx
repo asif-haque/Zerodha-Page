@@ -11,7 +11,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="bg-white fixed w-full top-0">
+    <div className="bg-white fixed w-full top-0 z-50">
       <div className="h-[10vh] shadow flex items-center px-10">
         <a href="#" className="text-blue-500 text-xl font-semibold">
           ZERODHA
@@ -31,7 +31,7 @@ const Navbar = () => {
       </div>
       {open && (
         <ul
-          className={`sm:hidden flex flex-col items-center gap-3 p-5 absolute w-full`}
+          className={`sm:hidden flex flex-col items-center gap-3 p-5 absolute w-full bg-white`}
         >
           {navItems.map((item) => (
             <li key={item.name}>
